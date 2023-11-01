@@ -10,6 +10,8 @@
     "url": "https://github.com/akveo/ngx-admin/issues"
   },
   "scripts": {
+    "cy.open": "cypress open",
+    "cy.run": "cypress run",
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
     "start": "run-script-os",
@@ -94,6 +96,7 @@
     "conventional-changelog-cli": "^2.1.1",
     "husky": "0.13.3",
     "npm-run-all": "4.0.2",
+    "prettier": "3.0.3",
     "rimraf": "2.6.1",
     "run-script-os": "^1.1.6",
     "stylelint": "7.13.0",
