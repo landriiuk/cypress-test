@@ -1,0 +1,268 @@
+[33mcommit 6183792675499f5fd037578f2cdb24efb6e84ad7[m[33m ([m[1;36mHEAD -> [m[1;32mnew-feature-branch[m[33m)[m
+Author: MaryIvanisovaa <ivanisovamaria07@gmail.com>
+Date:   Wed Nov 1 17:17:56 2023 +0200
+
+    new commit with prettier
+
+[33mcommit 4240ef621c57182edee1381a8311f87235e7ed4d[m[33m ([m[1;31morigin/new-feature-branch[m[33m, [m[1;32mmaster[m[33m)[m
+Author: MaryIvanisovaa <ivanisovamaria07@gmail.com>
+Date:   Tue Oct 31 16:41:16 2023 +0200
+
+    I installed Cypress and  wrote my first test in Cypress, pls ckeck it
+
+[33mcommit 4171cb64659c1f1cbbe11db8a81a030d0f7854f8[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: landriiuk <andriukluba@gmail.com>
+Date:   Thu Oct 26 00:50:40 2023 +0300
+
+    Explored actual state, checked if app is working, added readme
+
+[33mcommit 22cbd018ba73a1dec96398133a215aa91565f706[m
+Merge: 9e194ef 79a09d5
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sun Mar 26 10:28:52 2023 -0500
+
+    Merge pull request #44 from bondar-artem/testNode18
+    
+    Node 18 compatibility
+
+[33mcommit 79a09d50ae024dbddfc5b8414e3f84903a74882a[m
+Merge: 17a7c8b 9e194ef
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sun Mar 26 10:01:45 2023 -0500
+
+    Merge branch 'master' into testNode18
+
+[33mcommit 17a7c8bd65d82d891355246bea864bce1e30b80c[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat Mar 25 20:36:43 2023 -0500
+
+    corrections package.json
+
+[33mcommit 80fe5e3742144815c1245eff29debe416efaad3e[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat Mar 25 17:49:25 2023 -0500
+
+    added run split os
+
+[33mcommit 18388fc009b1527aec51a1f67d9eb0bf469607c7[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat Mar 25 17:41:50 2023 -0500
+
+    script update
+
+[33mcommit 7c711635dee47c63dda2f78f3773f6e981308389[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat Mar 25 16:41:05 2023 -0500
+
+    script update
+
+[33mcommit 6755a5fa0e1f3b636c048603c6ecb5dbb953c489[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat Mar 25 15:58:21 2023 -0500
+
+    one more change of start script
+
+[33mcommit 9cedc8283ac684f5359d2823511c83c216ce79ed[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Thu Mar 23 20:51:04 2023 -0500
+
+    remonved not needed script
+
+[33mcommit bf076cee469cc65be8ec790f5cf43a9fdcf3994b[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Thu Mar 23 20:48:39 2023 -0500
+
+    minor syntax fix
+
+[33mcommit 8a275563f85f7250467bfa5034ae75f06772865b[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Thu Mar 23 20:41:23 2023 -0500
+
+    added different OS start scripts
+
+[33mcommit b4113b9fec145b34059cd5ee3a8045fc1f097380[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Wed Mar 22 16:41:12 2023 -0500
+
+    update for node 18
+
+[33mcommit 9e194ef43d1ce936ae91e25b0b78bece5bf319ce[m
+Merge: fcc07b0 e444c64
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sun Jan 8 13:37:46 2023 -0600
+
+    Merge pull request #39 from bondar-artem/revertNodeBack
+    
+    revert node options back
+
+[33mcommit e444c643067df62f93504e4a390308b354981d94[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sun Jan 8 13:36:53 2023 -0600
+
+    revert node options back
+
+[33mcommit fcc07b0d6382cacf3356cb88f95dd89d9514d846[m
+Merge: f7e04cf 50b2d92
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Fri Jan 6 16:23:20 2023 -0600
+
+    Merge pull request #36 from bondar-artem/testNode18
+    
+    updated to support Node 18
+
+[33mcommit 50b2d92390d628ad0c9c0f992ac8ade0c15278be[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat Oct 29 12:23:01 2022 -0500
+
+    updated to support Node 18
+
+[33mcommit f7e04cfce7b384f8748d25cdb5db2d37e617ef80[m
+Merge: 848aa07 f789dd1
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sun Jul 24 15:04:40 2022 -0500
+
+    Merge pull request #25 from Postavshik/dependency-fix
+    
+    fix dependency issue node 16
+
+[33mcommit f789dd1c53edbf31fa2d56127941dcfecd409daa[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sun Jul 24 15:01:42 2022 -0500
+
+    fix dependency issue node 16
+
+[33mcommit 848aa07bfb30d4c5f1bbb7a97c4d195e9dd5ab35[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Thu Jul 14 14:24:33 2022 -0500
+
+    fix dependency
+
+[33mcommit 9ad836cf788b7602bd5c5af95c15e9dfcb7e8989[m
+Author: Artem Bondar <artem.bondar@gmail.com>
+Date:   Sat May 1 12:37:49 2021 -0500
+
+    dependency update
+
+[33mcommit ed28c92e0f977c5fbd24adc3165ce8aa04421f32[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Tue Mar 31 16:23:30 2020 -0500
+
+    updated dependencies
+
+[33mcommit e2157a62cae158bbd46394a24818a7d601063936[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Mon Mar 23 15:58:37 2020 -0500
+
+    deleted package lock
+
+[33mcommit c3aff1e52a2a6cb4a4acc0cefff2e10e302a2ab4[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Sun Sep 15 18:23:57 2019 -0500
+
+    added ID cypress locator to email input field
+
+[33mcommit 36f40657659217d80a733a78b6f59cad665b0aba[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Fri Aug 23 20:46:06 2019 -0500
+
+    modified readme
+
+[33mcommit ca989c20b87d6f5c64cd127760e2977cb4fad1e0[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Fri Aug 23 19:49:21 2019 -0500
+
+    cleaning
+
+[33mcommit 1d4a2cacec471a81561a3e627a59bac05ff56f06[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Fri Aug 23 19:15:03 2019 -0500
+
+    cleaning
+
+[33mcommit 009d9b27a010e9c91cb8b4e25bcc71e38530fcef[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Fri Aug 23 18:58:08 2019 -0500
+
+    cleaning
+
+[33mcommit 9dd69cca71fa93061135ef688083ec299a6c098b[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Fri Aug 23 07:45:46 2019 -0500
+
+    deleted some stuff
+
+[33mcommit a314351b760eaab34821be17c26559d6dd401111[m
+Author: artembondar <artem.bondar@aa.com>
+Date:   Fri Aug 23 07:33:16 2019 -0500
+
+    deleted some stuff
+
+[33mcommit ede1b074f0f3d9999041048e1dfb5084993dbe43[m
+Author: David Henley <henleydr@gmail.com>
+Date:   Fri Jul 19 02:51:06 2019 -0500
+
+    chore: update README for extra theme (#5466)
+
+[33mcommit 4ff3d938e49f5dc57f16146cc51176af9885bab5[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Tue Jul 16 12:26:35 2019 +0300
+
+    release: 4.0.1 (#5460)
+
+[33mcommit a39e9ee858a556424eb21cd04729940ec8bf01be[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Tue Jul 16 12:00:52 2019 +0300
+
+    chore(readme): update Angular version to 8 (#5459)
+
+[33mcommit d15ee3a333e80ca196910e5d40979cac9a97ac8f[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Mon Jul 15 19:23:05 2019 +0300
+
+    chore: change dark image readme image (#5458)
+
+[33mcommit a2e93f937622320552768c4728df0350303a8122[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Mon Jul 15 14:14:04 2019 +0300
+
+    feat: update Nebular to 4.1.2 (#5451)
+
+[33mcommit 4febf1902c8262d606e4d945f11b197e07979e29[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Tue Jul 9 18:21:38 2019 +0300
+
+    refactor(traffic card): remove unused styling (#2168)
+
+[33mcommit 243390c10f5e9259cc756800dd7a1f4b2cd52838[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Mon Jul 8 11:16:38 2019 +0300
+
+    fix(typography): prevent bootstrap color override (#2161)
+
+[33mcommit 8f09ddda959d6654b26df6ebb8674d82e475bc19[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Wed Jul 3 22:15:46 2019 +0300
+
+    chore: update readme images (#2151)
+
+[33mcommit 6925fd5e3a8d7a7109d0fdb3af8fe7bc4954b8fa[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Tue Jul 2 16:57:16 2019 +0300
+
+    release: 4.0.0 (#2150)
+
+[33mcommit e9600b4a0771ae2fb5645c2767f684e7ec4adb0f[m
+Author: Dmitry Nehaychik <4dmitr@gmail.com>
+Date:   Tue Jul 2 16:18:09 2019 +0300
+
+    feat: update to Angular 8, Nebular 4 (#2114)
+
+[33mcommit 537e6a77b0a2fc4e3e9247b9b17d8342e83894bb[m
+Author: Sergey Andrievskiy <yggg@users.noreply.github.com>
+Date:   Tue Jun 25 16:24:28 2019 +0300
+
+    chore: update readme images (#2143)
+
+[33mcommit b11ccb78ff03715dd5f558c37d2062231d875a08[m
+Author: Dmitry Nehaychik <4dmitr@gmail.com>
+Date:   Tue Apr 2 16:32:3
