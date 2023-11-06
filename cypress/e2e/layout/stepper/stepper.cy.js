@@ -11,3 +11,4 @@ describe("Test step content", () => {
         cy.get('@position').first().should('have.text', 'Step content #4');
     });
 });
+//test
