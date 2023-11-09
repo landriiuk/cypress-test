@@ -17,6 +17,7 @@ export default defineConfig({
     screenshotsFolder: "cypress/cypress/cypress_screenshot",
     screenshotOnRunFailure: true,
     trashAssetsBeforeRuns: false,
+    includeShadowDom:true,
     // viewportHeight:600,
     // viewportWidth:1000,
     video: true,
