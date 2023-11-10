@@ -8,7 +8,7 @@ describe('Forms tests', () => {
         cy.xpath('//a[@class="logo"]').click();
     });
 
-    it.only("Check real events", () => {
+    it("Check real events", () => {
         cy.visit('/pages/forms/layouts');
         cy.get('span:contains("Option 1")').realClick({ pointer: 'mouse' });
         cy.get('[data-cy="imputEmail1"]').focus().realType('test@user.com');
@@ -17,4 +17,20 @@ describe('Forms tests', () => {
         // cy.visit('/pages/modal-overlays/tooltip');
         // cy.contains("Show Tooltip").eq(0).realHover();
     });
+
+    const localization = ["Ukr", "Eng" ]
+    for (let index = 0; index < localization.length; index++) {
+        it(`Verify base form within ${localization[index]}`, () => {
+            cy.visit('/pages/forms/layouts');
+            cy.get(".col-md-6:eq(1)").contains("Basic form").parent().within(() => {
+                cy.get('[placeholder="Email"]').clear().type("new email")
+                cy.get('[type="password"]').clear().type("new psss")
+                cy.get(".custom-checkbox").click();
+                cy.get('[type="submit"]').click();
+
+                cy.wait(5000);
+                cy.scrollTo("top", { ensureScrollable: false });
+            });
+        });
+    }
 });
