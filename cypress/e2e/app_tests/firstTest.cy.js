@@ -11,7 +11,7 @@ describe('First test suite', () => {
     describe('Second describe inside', () => {
         it('Verify button text', { viewportHeight: 5000 }, () => {
             cy.viewport("ipad-mini")
-            cy.visit('layout/accordion');
+            cy.visit('pages/layout/accordion');
             cy.url().should('contain', 'layout/accordion');
             cy.get(".appearance-filled").should("contain.text", "Toggle First Item")
             cy.get('nb-card-header').should("contain.text", "Toggle Accordion By Button")
@@ -24,7 +24,7 @@ describe('First test suite', () => {
                 openMode: 2,
             }
         }, () => {
-            cy.visit('layout/accordion');
+            cy.visit('pages/layout/accordion');
             cy.url().should('contain', 'layout/accordion');
             cy.get(".appearance-filled").should("contain.text", "Toggle First Itemtfhf")
         });

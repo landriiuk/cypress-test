@@ -6,7 +6,7 @@ export default defineConfig({
     env: {
       name: "user"
     },
-    baseUrl: "http://localhost:4200/pages/",
+    baseUrl: "http://localhost:4200/",
     retries: {
       openMode: 1,
       runMode: 0
