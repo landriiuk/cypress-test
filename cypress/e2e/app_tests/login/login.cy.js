@@ -87,7 +87,12 @@ describe('Login suite', () => {
         // cy.get('[aria-label="Register"]').scrollIntoView({duration:500});
         cy.get('[aria-label="Register"]').scrollTo("bottomRight", { ensureScrollable: false });
         // cy.scrollTo("top", { ensureScrollable: false });
-        cy.get('#title').scrollTo("center",{ ensureScrollable: false });
+        cy.get('#title').scrollTo("center", { ensureScrollable: false });
         // cy.get('[ng-reflect-icon="github"]').scrollIntoView().should('be.visible');
+    })
+
+    it.only("invoke, hidden attr", () => {
+        cy.visit('/auth/login');
+        // cy.get("button.shape-rectangle").should("be.disabled").invoke("show").should("not.be.disabled")
     })
 });

@@ -15,9 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands';
+// import './commands2';
 import "cypress-real-events";
-
 import 'cypress-xpath';
+import 'cypress-get-table' 
 //  import('xpath_cypress');
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

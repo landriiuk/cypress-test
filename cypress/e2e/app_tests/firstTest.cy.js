@@ -13,7 +13,7 @@ describe('First test suite', () => {
             cy.viewport("ipad-mini")
             cy.visit('pages/layout/accordion');
             cy.url().should('contain', 'layout/accordion');
-            cy.get(".appearance-filled").should("contain.text", "Toggle First Item")
+            cy.getAppearanceAndVerifyText("Toggle First Item");
             cy.get('nb-card-header').should("contain.text", "Toggle Accordion By Button")
             cy.get('.appearance-filled').click();
         });
@@ -26,7 +26,8 @@ describe('First test suite', () => {
         }, () => {
             cy.visit('pages/layout/accordion');
             cy.url().should('contain', 'layout/accordion');
-            cy.get(".appearance-filled").should("contain.text", "Toggle First Itemtfhf")
+            cy.getAppearanceAndVerifyText("Toggle First Item");
+            // cy.get(".appearance-filled").should("contain.text", "Toggle First Itemtfhf")
         });
 
     });

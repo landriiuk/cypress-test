@@ -25,7 +25,7 @@ describe('Table tests', () => {
 
     });
 
-    it.only("To make object from received data", () => {
+    it("To make object from received data", () => {
         let finalArrObj = [];
         cy.get("tbody tr").each((el) => {
             let row = {
@@ -40,7 +40,7 @@ describe('Table tests', () => {
         })
 
         cy.log(finalArrObj);
-        
+
         cy.wrap().then(() => {
             for (const row of finalArrObj) {
                 if (row.id === "3") {
@@ -51,5 +51,25 @@ describe('Table tests', () => {
                 }
             }
         })
+    });
+
+    it('get table plugin', () => {
+        let table = [];
+        cy.get("table").getTable().then((el) => {
+            expect(el).to.be.an("array");
+            expect(el[0]).to.have.property(" Age ");
+            expect(el[0]).to.include({ " ID ": "test" });
+            table.push(el);
+        });
+        cy.log(table);
+    });
+
+    it('get columns from the table', () => {
+        // cy.get("table").getTable({ onlyColumns: " First Name " }).then((el) => {
+
+        cy.get("table").getTable({ onlyColumns: Object.keys({ " Age ": "50", " First Name ": null }) }).each((el) => {
+            expect(el).not.empty;
+            expect(el).to.include({ " Age ": "28" });
+        });
     });
 });
