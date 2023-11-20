@@ -18,12 +18,12 @@ describe('Table tests', () => {
         cy.log(elems)
     });
 
-    it("each", () => {
+    it("Get each elements from table, and verify length", () => {
         const elems = []
         const elementsToVerify = ['12', 'Jacob', 'Thornton', '@jacob', 'jacob@yandex.ru', '48']
         cy.visit('/pages/tables/smart-table');
-        // cy.get('[placeholder="ID"]').type(12);
-        // cy.wait(1000);
+        cy.get('[placeholder="ID"]').type(12);
+
         cy.get("tbody tr td").find("[ng-reflect-ng-switch]").each(($el) => {
             let elem = $el.text();
             elems.push(elem);
@@ -33,6 +33,7 @@ describe('Table tests', () => {
             // expect(elems).to.have.length(6);
         });
         cy.log(elems)
+
         // elems.forEach((select)=>{
         //     cy.get(`[data-test= id${select}]`).click();
         //     cy.go("back");
